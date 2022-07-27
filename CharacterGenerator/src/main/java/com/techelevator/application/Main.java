@@ -39,7 +39,8 @@ public class Main extends CharacterSheet {
                     setName(name);
                 }
                 else if (choice.equals("display")){
-                        CharacterSheet.displayCharacter();
+                    UserOutput.displayCharacterSheet();
+                    CharacterSheet.displayCharacter();
                 } else if(choice.equals("exit")){
                     UserOutput.goodByeMessage();
                     break;

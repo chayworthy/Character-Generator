@@ -44,6 +44,14 @@ public class UserOutput {
         System.out.println();
     }
 
+    public static void displayCharacterSheet(){
+        System.out.println();
+        System.out.println("***************************************************");
+        System.out.println("               Here's Your Character               ");
+        System.out.println("***************************************************");
+        System.out.println();
+    }
+
     public static void goodByeMessage(){
         System.out.println("Thank you for using the Character Creator!");
         System.out.println("See you next time!");
